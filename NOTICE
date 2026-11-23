@@ -1,0 +1,5 @@
+mdai-vault
+Copyright 2026 Goran Jovanović
+
+Licensed under the Apache License, Version 2.0 (see LICENSE).
+This product depends on the `age` crate, which remains under its own license (MIT OR Apache-2.0).

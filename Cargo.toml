@@ -1,0 +1,20 @@
+[package]
+name = "mdai-vault"
+version = "0.1.0"
+edition = "2021"
+license = "Apache-2.0"
+description = "Referentna implementacija formata šifrovanog trezora v1 (age, 24 riječi)."
+publish = false
+
+[dependencies]
+age = "=0.12.1"
+bech32 = "0.11"
+bip39 = "3"
+hmac = "0.12"
+sha2 = "0.10"
+rand = "0.8"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+zeroize = { version = "1", features = ["zeroize_derive"] }
+
+[dev-dependencies]
